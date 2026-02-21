@@ -1,0 +1,10 @@
+[dependencies]
+unicode-segmentation = { version = "*", optional = true }
+
+[features]
+grapheme = ["dep:unicode-segmentation"]
+
+[package]
+edition = "2021"
+name = "reverse_string"
+version = "1.2.0"
